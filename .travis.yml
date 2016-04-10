@@ -7,9 +7,9 @@ services:
 
 before_install:
 - docker-compose pull
-- docker-compose start
 
 script:
 - cd test
 - bundle install
+- docker-compose start
 - bundle exec rspec
