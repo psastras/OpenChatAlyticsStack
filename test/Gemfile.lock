@@ -22,6 +22,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.4.0)
     rspec-support (3.4.1)
+    waitutil (0.2.1)
 
 PLATFORMS
   ruby
@@ -31,6 +32,7 @@ DEPENDENCIES
   nokogiri
   rack (~> 1.1)
   rspec
+  waitutil
 
 BUNDLED WITH
    1.11.2
