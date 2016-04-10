@@ -1,0 +1,10 @@
+openchatalyticsui:
+  image: openchatalytics/openchatalyticsui
+  ports:
+   - "3001:3001"
+  links:
+    - openchatalytics
+openchatalytics:
+  image: openchatalytics/openchatalytics
+  ports:
+   - "8080:8080"
