@@ -8,3 +8,4 @@ openchatalytics:
   image: openchatalytics/openchatalytics
   ports:
    - "8080:8080"
+   - "9000:9000"
