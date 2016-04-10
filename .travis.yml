@@ -11,4 +11,5 @@ before_install:
 
 script:
 - cd test
+- bundle install
 - bundle exec rspec test
